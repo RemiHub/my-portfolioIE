@@ -2512,6 +2512,8 @@ input, select, textarea {
 				opacity: 1.0;
 			}
 
+/*Media Queries*/
+
 /* Wide */
 
 	@media screen and (max-width: 1680px) {
@@ -2655,6 +2657,12 @@ input, select, textarea {
 			h2 {
 				font-size: 1.25em;
 				letter-spacing: 4px;
+			}
+
+			/*#cv:hover #pdf-file */
+			#pdf-file {
+				width: 100%;
+				overflow-y: scroll;
 			}
 
 		/* List */
