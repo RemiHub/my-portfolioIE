@@ -1898,33 +1898,23 @@ input, select, textarea {
 					}*/
 
 					   .hover-text-one {
-						display: block;
-						margin-left: auto;
-						margin-right: auto;
-						margin-top: 25%;
-						width: 80%;
+						position: absolute;
+						text-align: center;
+						top: 50%;
+						left: 50%;
+						width: 100%;
 						background-color: black;
 						color: #fff;
-						text-align: center;
+						font-size: 0.8em;
 						padding: 5px 0;
 						border-radius: 50px;
-						/* Position the tooltip text - see examples below! 
-						position: absolute;
-						*/
-						
-						
-						/*left: 25%;
-						top: 40%;*/
+						transform: translate(-50%, -50%);
 					  }
 
 
 
 					.overlay {
 					position: absolute;
-					top: 0;
-					bottom: 0;
-					left: 0;
-					right: 0;
 					height: 100%;
 					width: 100%;
 					opacity: 0;
@@ -1970,31 +1960,35 @@ input, select, textarea {
 						left: 0;
 						right: 0;
 						border-radius: 50px;
-						height: 100%;
-						width: 100%;	
+						/* height: 100%;*/
+						width: 100%;	 
 						opacity: 0;
 						transition: .3s ease;
-						background-color: #183026;
+						background-color: #183026; /*#183026*/
 						color: rgb(185, 177, 177);
 						text-align: center;
 						padding: 15px;
-						
+						font-size: 1em;
 						}
 
 						#one:hover .text-overlay {
-							opacity: 0.7;
+							opacity: 1;
 						}
 
 						#two:hover .text-overlay {
-							opacity: 0.7;
+							opacity: 1;
 						}
 
 						#three:hover .text-overlay {
-							opacity: 0.7;
+							opacity: 1;
 						}
 
 						#four:hover .text-overlay {
-							opacity: 0.7;
+							opacity: 1;
+						}
+
+						#about-me-text{
+							font-size: 1.5em;
 						}
 
 
