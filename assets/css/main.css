@@ -1990,7 +1990,16 @@ input, select, textarea {
 						#about-me-text{
 							font-size: 1.5em;
 						}
-
+						
+						.form-control.success{
+							border-color: limegreen;
+							
+						}
+						
+						.form-control.error{
+							border-color: crimson;
+						}
+						
 
 
 					

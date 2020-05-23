@@ -124,3 +124,33 @@
 		});
 
 })(jQuery);
+
+
+
+
+//check email is valid email format
+const email = document.getElementById('email-reg-ex');
+const form = document.querySelector('form');
+
+
+//check email is valid with regex
+function checkEmail(input){
+	const re = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    // return re.test(String(email).toLowerCase());
+    if(re.test(input)){
+		alert('Message sent, thank you');
+		
+    } else {
+		alert('Email is not valid');
+		// console.log(input.value)
+    }
+}
+
+//submit message ok or not?
+form.addEventListener('submit', function(e) {
+	e.preventDefault();
+	
+    checkEmail(email.value);
+});
+
+//SEND MESSAGE TO EMAIL!!
