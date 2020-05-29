@@ -1991,14 +1991,9 @@ input, select, textarea {
 							font-size: 1.5em;
 						}
 						
-						.form-control.success{
-							border-color: limegreen;
-							
-						}
-						
-						.form-control.error{
-							border-color: crimson;
-						}
+						/* i{
+							padding: 10px;
+						} */
 						
 
 
@@ -2516,6 +2511,10 @@ input, select, textarea {
 				opacity: 1.0;
 			}
 
+			.small-screen{
+				display: none;
+			}
+
 /*Media Queries*/
 
 /* Wide */
@@ -2532,6 +2531,10 @@ input, select, textarea {
 
 			#header {
 				padding: 10em 0 12em 0;
+			}
+
+			.small-screen{
+				display: none;
 			}
 
 	}
@@ -2553,16 +2556,28 @@ input, select, textarea {
 				padding: 8em 0 10em 0;
 			}
 
+			.small-screen{
+				display: none;
+			}
+
 	}
 
 /* Narrow */
 
-	@media screen and (max-width: 840px) {
+	@media screen and (max-width: 860px) {
 
 		/* Basic */
 
 			.button-up, .button-up-two, .button-down-three{
 				visibility: hidden;
+			}
+
+			.large-screen{
+				display: none;
+			}
+
+			.small-screen{
+				display: block;
 			}
 
 			body {
