@@ -1787,7 +1787,8 @@ input, select, textarea {
 		input[type="submit"]:hover,
 		input[type="reset"]:hover,
 		button:hover,
-		.button:hover {
+		.button:hover
+		{
 			background: #45c89f;
 		}
 
@@ -1795,7 +1796,8 @@ input, select, textarea {
 		input[type="submit"].style2,
 		input[type="reset"].style2,
 		button.style2,
-		.button.style2 {
+		.button.style2
+		 {
 			color: #3a3939;
 			background: #fff;
 			box-shadow: inset 0 0 0 1px #fff;
@@ -1805,7 +1807,8 @@ input, select, textarea {
 			input[type="submit"].style2:hover,
 			input[type="reset"].style2:hover,
 			button.style2:hover,
-			.button.style2:hover {
+			.button.style2:hover
+			 {
 				background: rgba(255, 255, 255, 0.1);
 				color: #fff !important;
 				text-shadow: 0 0 0.5px rgba(255, 255, 255, 0.25) !important;
@@ -1815,7 +1818,8 @@ input, select, textarea {
 		input[type="submit"].style3,
 		input[type="reset"].style3,
 		button.style3,
-		.button.style3 {
+		.button.style3
+		 {
 			background: none;
 			color: #3a3939;
 			box-shadow: inset 0 0 0 1px #dad9d9;
@@ -1825,7 +1829,8 @@ input, select, textarea {
 			input[type="submit"].style3:hover,
 			input[type="reset"].style3:hover,
 			button.style3:hover,
-			.button.style3:hover {
+			.button.style3:hover
+			 {
 				background: rgba(58, 57, 57, 0.025);
 			}
 
@@ -1833,6 +1838,7 @@ input, select, textarea {
 				position: relative;
 				width: 20px;
 			}
+
 
 			.button-up{
 			-moz-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out;
@@ -1868,13 +1874,19 @@ input, select, textarea {
 				margin-left: 1%;
 				margin-top: 5vh;
 				z-index: 2;
-				color: #fff;
+				color: #3a3939;
 				cursor: pointer;
 				text-decoration: none;
 				outline: 0;
 				
 				}
 
+				.button-up-two:hover{
+					color: #fff;
+				}
+
+				
+			
 				.button-down-three{
 					-moz-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out;
 					-webkit-transition: background-color 0.35s ease-in-out, color 0.35s ease-in-out;
@@ -1886,12 +1898,19 @@ input, select, textarea {
 					border: 0;
 					right: 1%;
 					margin-top: 5vh;
-					color: #fff;
+					color: #3a3939;
 					cursor: pointer;
 					text-decoration: none;
 					outline: 0;
 					z-index: 2;
 					}
+
+					.button-down-three:hover{
+						
+						color: #fff;
+					}
+
+				
 
 					/*#header-one {
 						margin-top: 1px;
@@ -1989,6 +2008,7 @@ input, select, textarea {
 
 						#about-me-text{
 							font-size: 1.5em;
+							padding: 100px;
 						}
 						
 						/* i{
